@@ -1,0 +1,16 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Pathway+Gothic+One&family=Sawarabi+Gothic&display=swap');
+
+body {
+  /* font-family: 'Heebo', sans-serif; */
+  /* font-family: 'Pathway Gothic One', sans-serif; */
+  font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

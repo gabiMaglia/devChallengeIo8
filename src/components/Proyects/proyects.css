@@ -1,0 +1,19 @@
+.nav{
+    position: fixed;
+    top: 6rem;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-inline: 1rem ;
+}
+.nav-item {
+    color: rgb(173, 173, 173);
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.nav-item:hover {
+    color: white;
+}

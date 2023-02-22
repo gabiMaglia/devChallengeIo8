@@ -1,0 +1,26 @@
+#topnav {
+  height: 6rem;
+  width: 100vw;
+  display: flex;
+  top: 0;
+}
+#topnav .nav-link  {
+  color: black;
+  display: grid;
+  place-content: center;
+  transition: all 0.1s ease-in;
+  height: 100%;
+  min-width: 178px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+#topnav a:hover {
+  background: black;
+  color: white;
+}
+
+#topnav .active {
+  background: black;
+  color: white;
+}
