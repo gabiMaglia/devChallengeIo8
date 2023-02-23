@@ -1,26 +1,34 @@
 #topnav {
-  height: 6rem;
+  position: sticky;
+  top: 0;
+  height: 4.5rem;
   width: 100vw;
   display: flex;
-  top: 0;
+  flex: 1 0 0;
+  background-color: black;
 }
-#topnav .nav-link  {
-  color: black;
+#topnav .link  {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding: 0.2rem;
   display: grid;
   place-content: center;
+  
   transition: all 0.1s ease-in;
-  height: 100%;
-  min-width: 178px;
+
   text-decoration: none;
   font-weight: 900;
+  font-size: 14px;
 }
 
 #topnav a:hover {
-  background: black;
-  color: white;
+  background:white ;
+  color: black;
 }
 
 #topnav .active {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
