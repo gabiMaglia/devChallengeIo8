@@ -1,17 +1,19 @@
 
+import MiniNav from '../common/MiniNav/MiniNav'
 import './proyects.css'
 
 const Proyects = () => {
+  const sections: [{}, {}, {}, {}] = [
+    { name: "Angular", link: "https://a" },
+    { name: "NodeJs", link: "https://a" },
+    { name: "React", link: "https://a" },
+    { name: "Responsive HTML & CSS", link: "https://a" },
+  ];
   return (
     <>
-     <nav className='nav nav-bar bg-black'>
-        <div className="nav-item">All</div>
-        <div className="nav-item">React</div>
-        <div className="nav-item">Node</div>
-        <div className="nav-item">Others</div>
-        <div className="nav-item">Responsive</div>
-    </nav>
-    <div>Proyects</div>
+    <header className="row  g-0">
+          <MiniNav sec={sections} />
+    </header>
     </>
   )
 }

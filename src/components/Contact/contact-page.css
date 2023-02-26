@@ -1,19 +1,48 @@
-.nav{
-    position: fixed;
-    top: 6rem;
-    width: 100vw;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding-inline: 1rem ;
+.form-title h2 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: .5rem;
 }
-.nav-item {
-    color: rgb(173, 173, 173);
-    font-weight: 700;
-    cursor: pointer;
+.form-title p {
+  margin-bottom: 4rem;
+}
 
+label{
+  margin: -1px!important;
 }
-.nav-item:hover {
-    color: white;
+
+.contact-form {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  min-width: none;
+  width: 100%;
+}
+
+.contact-form input {
+  height: 54px;
+  background: none;
+  border-radius: 0;
+}
+.button,
+.textCont,
+.email {
+  grid-column: 1 / span 2 !important;
+}
+.form-cont-1{
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+.form-cont-1 div {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.text {
+  resize: none;
+  height: 86px!important;
+}
+
+.button{
+  max-width: 98%!important;
 }

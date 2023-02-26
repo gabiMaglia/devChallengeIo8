@@ -1,31 +1,11 @@
-.nav-bar{
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding-inline: 1.5rem !important;
-}
-.nav-item {
-    color: rgb(173, 173, 173);
-    text-align: center;
-    font-weight: 700;
-    font-size: 12px;
-    cursor: pointer;
-}
-.nav-item:hover {
-    color: white;
-}
 
 #personal-data {
     display: flex;
     justify-content: center;
-    margin: 0 2.5em;
-    padding: 2em 2em;
+   
     border-radius: 12px;
     box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
 }
-
-
 .photo {
     width: 100%;
     max-width: 320px;
@@ -47,15 +27,9 @@
 }
 
 @media screen and ( min-width : 740px ) {
-    .nav-item{
-        font-weight: 700;
-        font-size: 14px;  
-    }
+
 }
 
 @media screen and ( min-width : 1024px ) {
-    .nav-item{
-        font-weight: 700;
-        font-size: 16px;  
-    }
+
 }
