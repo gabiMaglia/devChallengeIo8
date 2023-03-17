@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav id="topnav"  className="navbar-expand ">
        
           
-          <NavLink to="/" className="link ">
+          <NavLink to="/me" className="link ">
             GABRIELMAGLIA
           </NavLink>
           <NavLink className="link" to="/proyects">

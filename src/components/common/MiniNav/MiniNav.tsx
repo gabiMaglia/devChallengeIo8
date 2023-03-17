@@ -1,7 +1,12 @@
-import { Link } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
 import "./miniav.css";
 
 const MiniNav = (props: any) => {
+
+
+
+
+
   return (
     <>
       <nav className="navbar navbar-dark navbar-expand-lg text-light bg-black ">
@@ -31,15 +36,24 @@ const MiniNav = (props: any) => {
             <ul className="navbar-nav">
               {props.sec ? (
                 props.sec.map((item: any) => (
-                  <li className="nav-item" key={Math.random()}>
+                  <li className="nav-item ps-4" key={Math.random()}>
                     {" "}
-                    <Link className="nav-link text-light" to={"#"}>
-                      {item.name}
-                    </Link>
+                    
+                        <NavLink
+                         to={`${item.link}`}
+                         className="nav-link " 
+                         style={({ isActive }) =>
+                         ({color: isActive? "white" : "grey" })
+                       }
+                         >
+
+                          {item.name}
+                        </NavLink>
+                        
                   </li>
                 ))
               ) : (
-                <div className="nav-item-social p-0">
+                <div className="nav-item-social ps-4">
                   <button className="btn btn-outline-light  me-2">
                     <i className="fa-brands fa-instagram"></i>
                   </button>

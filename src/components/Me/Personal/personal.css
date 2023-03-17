@@ -1,0 +1,118 @@
+#personal-data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  .photo-div {
+    width: 100%;
+    background: black;
+    display: grid;
+    place-content: center;
+  }
+  .photo {
+    box-shadow: 5px 5px 1px black;
+    min-width: 110px;
+    width: 100%;
+    padding-top: 1em;
+  }
+  
+  .data-div{
+    width: 100%;
+  }
+  
+  .main-data-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1.25em solid black;
+    margin-top: 3rem;
+    padding: 1rem auto;
+    padding-bottom: 2em; 
+  }
+  
+  .about{
+    padding: 3em 1em;
+  }
+  
+  .hobbies {
+    border-top: 1.25em solid black;
+    padding-top: 2rem;
+  }
+  .hobbies h3 {
+    padding-bottom: 1em;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .list li {
+    gap: 15px;
+    text-align: center;
+    padding: 0 .3em;
+    font-size: 24px;
+  
+  }
+ 
+  
+  @media screen and (min-width: 992px) {
+   
+    .photo {
+      width: fit-content !important;
+      max-width: 460px;
+      padding-top: 0;
+    }
+    
+    .data-div {
+      border: 1.25em solid black;
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      padding: 0 2em 2em 2em;
+    }
+    .main-data-div {
+      flex-direction: row;
+      border-bottom: 1.25em solid black;
+      padding-bottom: 0;
+    }
+  
+    .name h1 {
+      font-weight: 700;
+      font-size: 64px;
+      margin-bottom: 0.5rem;
+    }
+    .name h2 {
+      font-size: 24px;
+      margin-bottom: 3rem;
+    }
+  
+    .contact {
+      padding:  1em 0;
+      font-size: 18px;
+    }
+  
+    .about{
+      padding: 1em 1em;
+    }
+    .about h3 {
+      font-weight: 600;
+    }
+    .about p {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .hobbies h3 {
+      padding-bottom: 2rem;
+    }
+  
+  }
+  
+  @media screen and (max-width: 921px) {
+  }
+  

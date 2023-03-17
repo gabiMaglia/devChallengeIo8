@@ -8,8 +8,8 @@ const ContactPage = () => {
         <MiniNav />
       </header>
 
-      <main>
-        <article className="p-4 px-5 container-fluid section-container d-flex flex-column  ">
+      <main className="pt-5 my-auto ">
+        <article className=" p-5 container-fluid section-container d-flex flex-column  ">
           <section className="form-title   ">
             <strong>
               <h2>CONTACTA CON MIGO</h2>
